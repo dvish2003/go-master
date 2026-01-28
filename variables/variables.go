@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var name string = "Alice"
 	fmt.Println(name)
 
@@ -12,16 +12,19 @@ func main(){
 	var isStudent bool = false
 	fmt.Println(isStudent)
 
+	var firstName, lastName string = "Vishan", "Chathuranga" // Multiple variable declaration
+	fmt.Println("Full Name:", firstName, lastName)
 
-	var firsNumber int = 30;
-	var secondNumber int = 20;
-	var sum int = firsNumber + secondNumber;
+	newUser := "vishan Chathuranga ....."  // Type inference. we can define variable without specifying type
+	fmt.Println(newUser)
+
+	var firsNumber int = 30
+	var secondNumber int = 20
+	var sum int = firsNumber + secondNumber
 	fmt.Println("Sum:", sum)
 
-
-
-	var userScore float32 = 95.5 // Example of float32 variable
-	var userBalance float64 = 1500.75// Example of float64 variable
+	var userScore float32 = 95.5      // Example of float32 variable
+	var userBalance float64 = 1500.75 // Example of float64 variable
 
 	fmt.Println("User Score:", userScore)
 	fmt.Println("User Balance:", userBalance)
@@ -30,5 +33,5 @@ func main(){
 	fmt.Printf("Type of userScore: %T\n", userScore)
 	fmt.Printf("Type of userBalance: %T\n", userBalance)
 	fmt.Printf("Type of name: %T\n", name)
-	
+
 }
