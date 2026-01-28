@@ -34,4 +34,11 @@ func main() {
 	fmt.Printf("Type of userBalance: %T\n", userBalance)
 	fmt.Printf("Type of name: %T\n", name)
 
+
+	// Constant variable
+	const pi float64 = 3.14159 // Constant variable declaration not allowed to change value
+	fmt.Println("Value of Pi:", pi)
+
+
+
 }
